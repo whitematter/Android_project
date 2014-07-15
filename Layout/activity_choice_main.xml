@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text=" ADD  "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnadd"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/add"
+            android:text="@string/Add" />
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text=" EDIT  "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnedit"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/edit" />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text=" VIEW  "
+            android:textSize="20dp" 
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/btnview"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/view"
+            android:text="@string/View" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text=" DELETE  "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btndel"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/delete"
+            android:text="@string/Delete" />
+    </LinearLayout>
+        <Button
+        android:id="@+id/btnsnout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out" />
+
+</LinearLayout>
